@@ -1,0 +1,6 @@
+a11 = int(input('Primeiro elemento: '))
+a12 = int(input('Segundo elemento: '))
+a21 = int(input('Terceiro elemento: '))
+a22 = int(input('Quarto elemento: '))
+det = (a11 * a21) - (a12 * a22)
+print('Determinante = \033[1;35m{}\033[m'.format(det))
